@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cracked Games Tycoon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game">
+        <div id="creatorInfoContainer"></div>
+        <div id="stats">
+            <h1>Cracked Games: <span id="totalGames">0</span></h1>
+            <p>Stock: <span id="games">0</span></p>
+            <p>Money: $<span id="money">0.00</span></p>
+        </div>
+        <button id="crackButton">Crack Game<span id='version'></span></button>
+
+        <!-- Public Demand Display -->
+        <div id="publicDemandContainer">
+            <p>Public Demand: <span id="publicDemandPercentage">0%</span></p>
+        </div>
+
+        <!-- Add a slider for the player to set their price -->
+        <div id="sellPrice">
+            <label for="sellPriceInput">Set Sell Price:</label>
+            <input type="range" id="sellPriceInput" min="0.1" max="50" value="1.50" step="0.01">
+            $<span id="sellPriceValue">1.50</span>
+        </div>
+        <div id="language-selector" style="display:none;">
+            <label for="languages" style="font-size: 18px; margin-right: 10px;">Select Language:</label>
+            <select id="languages" name="languages" style="font-size: 18px; background-color: #333; color: white; border: none; padding: 10px 20px;">
+                <option value="en">English</option>
+                <option value="fr">French</option>
+                <option value="es">Spanish</option>
+                <option value="de">German</option>
+                <!-- Add languages -->
+            </select>
+        </div>        
+        <div id="upgrades">
+            <button id="buyUpgrade" style="display:none;">
+                Hacker: <span id="upgradesCount"></span>
+                <br>Cost: $<span id="upgradeCost"></span>
+            </button>
+            <button id="buyautocracker" style="display:none;">
+                Autocracker: <span id="autocrackersCount"></span>
+                <br>Cost: $<span id="autocrackerCost"></span>
+            </button>
+            <button id="buyMarketing" style="display:none;">
+                Invest in Marketing Campain</span>
+                <br>Cost: $<span id="marketingCost"></span>
+            </button>
+            <button id="buyAntiPiracy" style="display:none;">
+                Anti-Piracy Measures<br>Implementing fake anti-piracy measures in cracked games.
+                <br>Cost: $<span id="marketingCost"></span>
+            </button>
+        </div>
+    </div>
+
+    <div id="logs">
+        <h2>Action Logs</h2>
+        <div id="logContainer"></div>
+    </div>
+    <audio id="buttonClickSound" src="buttonClick.mp3" preload="auto"></audio>
+    <script src="game.js"></script>
+</body>
+</html>

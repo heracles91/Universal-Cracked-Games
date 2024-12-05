@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Cracking Games Tycoon</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div id="game">
+		<h2>Cracked Games: <span id="games"></span></h2>
+		<div id="stats">
+			<p>Stock: <span id="stock"></span></p>
+			<p>Money: <span id="money"></span></p>
+			<p>Electricity:</p>
+			<div id="electricityProgress">
+				<div id="electricityBar">500 W</div>
+			</div>
+		</div>
+		<button id="crackButton">Crack Game</button>
+		<div id="hackers">
+			<button id="buyHacker" style="display:none;">Engage Hacker (Cost: <span id="hacker"></span>)</button>
+			<button id="buyAutocracker" style="display:none;">Buy Autocracker (Cost: <span id="autocracker"></span>)</button>
+			<button id="payBill" style="display:none;">Pay Electricity Bill (Cost: <span id="billCost"></span>)</button>
+		</div>
+	</div>
+
+	<div id="logs">
+		<h2>Actions Logs</h2>
+		<div id="logContainer"></div>
+	</div>
+
+	<script src="game.js"></script>
+</body>

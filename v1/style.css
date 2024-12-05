@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 100vh;
+    background-color: #282c34;
+    color: white;
+    margin: 0;
+    padding: 20px;
+}
+
+#game {
+    width: 50%;
+    text-align: center;
+}
+
+#stats p {
+    font-size: 25px;
+    margin: 10px;
+}
+
+button {
+    background-color: #61dafb;
+    border: none;
+    padding: 15px 30px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    width: 80%;
+    opacity: 0;
+    transform: scale(0);
+    animation: popIn 0.3s forwards;
+}
+
+button:hover {
+    background-color: #21a1f1;
+}
+
+#logs {
+    width: 40%;
+    margin-left: 20px;
+    background-color: #333;
+    padding: 20px;
+    height: 90vh;
+    overflow-y: auto;
+    color: white;
+}
+
+#logContainer {
+    font-size: 16px;
+    white-space: pre-wrap;
+}
+
+#autoSellToggle {
+    margin-top: 20px;
+}
+
+/* Animation for buttons appearing */
+@keyframes popIn {
+    0% {
+        opacity: 0;
+        transform: scale(0);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+#sellPrice {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+#sellPriceInput {
+    width: 80%;
+}
+
+#sellPriceValue {
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+/* LANGUAGE SELECTOR */
+#language-selector {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+#languages {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    font-size: 18px;
+    width: 80%;
+    cursor: pointer;
+}
+
+#languages:hover {
+    background-color: #21a1f1;
+}
+
+#languages:focus {
+    outline: none;
+    box-shadow: 0 0 5px #61dafb;
+}

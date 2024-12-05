@@ -1,0 +1,54 @@
+body {
+	font-family: Arial, sans-serif;
+	display: flex;
+	background-color: #282c34;
+	color: white;
+	margin: 0;
+}
+
+#game {
+	padding-left: 20px;
+	width: 50%;
+}
+
+button {
+	background-color: #61dafb;
+	border: none;
+	padding: 10px 20px;
+	margin: 0 10px 10px 0;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+button:hover {
+	background-color: #21a1f1;
+}
+
+#logs {
+	width: 50%;
+	margin-left: 20px;
+	background-color: #333;
+	padding: 20px;
+	height: 90vh;
+	overflow-y: auto;
+	color: white;
+}
+
+#logContainer {
+	font-size: 16px;
+	white-space: pre-wrap;
+}
+
+#electricityProgress {
+  width: 100%;
+  background-color: grey;
+}
+
+#electricityBar {
+  width: 100%;
+  height: 30px;
+  background-color: #04AA6D;
+  text-align: center; /* To center it horizontally (if you want) */
+  line-height: 30px; /* To center it vertically */
+  color: white;
+}
