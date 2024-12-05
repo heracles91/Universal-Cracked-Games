@@ -16,7 +16,7 @@ Universal Cracked Games est un jeu de simulation inspiré de Universal Paperclip
    ```
 2. Clonez le repository :
    ```bash
-   cd universal-cracked-games
+   cd universal-cracked-games/v[version]
    ```
 3. Lancez le jeu en local sur votre machine :
    ```bash
