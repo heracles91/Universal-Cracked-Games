@@ -12,37 +12,9 @@ Universal Cracked Games est un jeu de simulation inspiré de Universal Paperclip
 
 1. Clonez le repository :
    ```bash
-   git clone https://github.com/votre-utilisateur/universal-cracked-games.git
+   git clone https://github.com/heracles91/universal-cracked-games.git
    ```
 2. Clonez le repository :
-   ```bash
-   cd universal-cracked-games
-   ```
-3. Lancez le jeu en local sur votre machine :
-   ```bash
-   open index.html
-   ```
-
-### README.md
-
-```markdown
-# Universal Cracked Games
-
-Universal Cracked Games est un jeu de simulation inspiré de Universal Paperclip et de Cookie Clicker. Dans ce jeu, vous gérez une entreprise virtuelle de jeux vidéo piratés. Votre objectif est de maximiser vos profits en optimisant les ressources, automatisant les processus et en dominant le marché.
-
-## Fonctionnalités
-
-- **Gestion des ressources** : Gérez vos ressources pour produire et distribuer des jeux piratés.
-- **Automatisation** : Débloquez des améliorations pour automatiser la production et la distribution.
-- **Expansion** : Étendez votre empire de piratage et dominez le marché mondial.
-
-## Installation
-
-1. Clonez le repository :
-   ```bash
-   git clone https://github.com/votre-utilisateur/universal-cracked-games.git
-   ```
-2. Accédez au répertoire du jeu :
    ```bash
    cd universal-cracked-games
    ```
